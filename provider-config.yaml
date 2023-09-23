@@ -1,0 +1,8 @@
+apiVersion: aws.upbound.io/v1beta1
+kind: ProviderConfig
+metadata:
+  name: irsa-providerconfig 
+  namespace: foundations
+spec:
+  credentials:                                            
+    source: IRSA
